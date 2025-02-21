@@ -12,7 +12,7 @@ export default function CharactersScreen({ navigation }) {
   }, []);
 
   return (
-    <ScrollView>
+    <View>
       <FlatList
         data={characters}
         keyExtractor={item => item.id.toString()}
@@ -23,7 +23,7 @@ export default function CharactersScreen({ navigation }) {
         </TouchableOpacity>     
       )}
     />
-  </ScrollView>
+  </View>
   );
 }
 
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#00aa00',
     borderRadius: 5,
     marginVertical: 7,
-    height: 100,
+    height: 50,
     width: 300,
     marginLeft:"auto",
     marginRight:"auto",

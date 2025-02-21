@@ -20,21 +20,24 @@ export default function HomeScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     justifyContent: 'center',
-    marginTop: 30,
+    marginTop: 70,
   },
   button: {
-    flex:1 ,
+    flex: 1,
     padding: 10,
     backgroundColor: '#00aa00',
     borderRadius: 5,
+    height: 50,
+    minHeight: 50,
     width: 300,
     marginLeft:"auto",
     marginRight:"auto",
     marginBottom: 10,
+    marginTop: 10,
   },
   buttonText: {
-    fontSize: 20,
-    color: 'white',
+    fontSize: 15,
+    color: '#fff',
     textAlign:"center",
   },
 });
