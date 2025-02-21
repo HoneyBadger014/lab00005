@@ -1,7 +1,7 @@
 {
   "expo": {
-      "name": "lab00005",
-      "slug": "lab00005",
+      "name": "lab00004",
+      "slug": "lab00004",
       "version": "1.0.0",
       "orientation": "portrait",
       "icon": "./assets/images/icon.png",
@@ -16,7 +16,7 @@
               "foregroundImage": "./assets/images/adaptive-icon.png",
               "backgroundColor": "#ff9800"
           },
-          "package": "com.mnskkv.lab00005"
+          "package": "com.mnskkv.lab00004"
       },
       "web": {
           "bundler": "metro",
