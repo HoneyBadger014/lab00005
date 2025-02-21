@@ -1,6 +1,6 @@
 {
 	"expo": {
-		"name": "lab0000",
+		"name": "toulabone",
 		"slug": "toulabone",
 		"version": "1.0.0",
 		"orientation": "portrait",
@@ -23,7 +23,7 @@
 			"output": "static",
 			"favicon": "./assets/images/favicon.png"
 		},
-		"plugins": [ 
+		"plugins": [
 			"expo-router",
 			[
 				"expo-splash-screen",
